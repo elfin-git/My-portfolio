@@ -2,6 +2,8 @@ body {
   background: #191765;
   font-family: 'Roboto';
   font-style: normal;
+  align-items: center;
+
 }
 .toolbar {
   position: sticky;
@@ -111,7 +113,6 @@ h3 {
   color: #C8C8D4;
   display: flex;
   margin-top: -5px;
-  margin-left: 5px;;
 }
 .line1 {
   position: absolute;
@@ -179,12 +180,44 @@ p {
   
 .sm {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  padding: 0px;
   gap: 24px;
   width: 200px;
-  height: 104p
+  height: 104px;
+  text-align: center;
+  vertical-align: top;
+  justify-content: space-between;
+}
+.icons1 {
+  align-items: center;
+  width: 18px;
+  height: 20px;
+  display: flex;
+}
+.icons {
+  align-items: center;
+  width: 18px;
+  height: 20px;
+  display: flex;
+}
+.icons2 {
+  align-items: center;
+  width: 14px;
+  height: 20px;
+  display: flex;
+}
+.icons3 {
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  display: flex;
+}
+.icons4 {
+  align-items: center;
+  width: 16px;
+  height: 20px;
+  display: flex;
 }
 .line2 {
   position: absolute;
@@ -194,5 +227,28 @@ p {
   width: 327px;
   display: block;
   align-items: center;
+}
+.sm-icons {
+  display: flex;
+  flex-direction: row; 
+  align-content: center;
+  padding: 0px;
+  width: 200px;
+  height: 40px;
+  justify-content: space-between;
+  margin-left: 85%;
+}
+.work {
+font-size: 20px;
+line-height: 32px;
+line-height: 137%;
+text-align: center;
+align-content: center;
+vertical-align: top;
+color: #A2A3AE;
+display: flex;
+width:77px;
+height: 40px;
+margin-left: 100%;
 }
 

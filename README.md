@@ -7,12 +7,11 @@
 ## Built With
 
 - HTML & CSS
-- Frameworks
-- Technologies used
+- Github
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://display: flex;)
 
 
 ## Getting Started
@@ -36,7 +35,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Tracy Musongole**
 
 - GitHub: [@githubhandle](https://github.com/elfin-git)
 - Twitter: [@twitterhandle](https://twitter.com/tracy_muso)
