@@ -1,9 +1,10 @@
 body {
   background: #191765;
-  font-family: 'Roboto',serif;
+  font-family: 'Roboto', serif;
   font-style: normal;
   align-items: center;
 }
+
 .toolbar {
   position: sticky;
   display: flex;
@@ -12,13 +13,12 @@ body {
   height: 48px;
   top: 0px;
 }
+
 a {
   text-decoration: none;
   color: #ffffff;
-  
-  
-  
 }
+
 h4 {
   width: 81px;
   height: 16px;
@@ -33,6 +33,7 @@ h4 {
   text-align: center;
   border-radius: 5px;
 }
+
 .bi {
   display: flex;
   align-items: flex-end;
@@ -42,6 +43,7 @@ h4 {
   color: white;
   margin-top: -5px;
 }
+
 .one {
   position: absolute;
   width: 160px;
@@ -52,6 +54,7 @@ h4 {
   filter: blur(50px);
   display: flex;
 }
+
 .two {
   position: absolute;
   width: 68px;
@@ -62,6 +65,7 @@ h4 {
   filter: blur(50px);
   display: flex;
 }
+
 .heading {
   display: flex;
   flex-direction: column;
@@ -71,6 +75,7 @@ h4 {
   width: 327px;
   min-height: 154px;
 }
+
 h1 {
   width: 327px;
   height: 55px;
@@ -81,6 +86,7 @@ h1 {
   letter-spacing: 0.37px;
   color: #7d73fc;
 }
+
 h3 {
   width: 327px;
   height: 87px;
@@ -91,6 +97,7 @@ h3 {
   text-align: center;
   color: #edecff;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -101,6 +108,7 @@ h3 {
   min-height: 738.15px;
   flex-wrap: wrap;
 }
+
 .desc {
   width: 327px;
   height: 170px;
@@ -112,6 +120,7 @@ h3 {
   display: flex;
   margin-top: -5px;
 }
+
 .line1 {
   position: absolute;
   height: 0px;
@@ -121,6 +130,7 @@ h3 {
   display: block;
   align-items: center;
 }
+
 .edu {
   display: flex;
   flex-direction: row;
@@ -131,6 +141,7 @@ h3 {
   height: 462.15px; 
   flex-wrap: wrap;
 }
+
 .title {
   width: 107px;
   height: 16px;
@@ -142,6 +153,7 @@ h3 {
   letter-spacing: 0.03em;
   color: #9490ff;
  } 
+
  .lang {
   display: flex;
   flex-direction: column;
@@ -151,6 +163,7 @@ h3 {
   width: 123px;
   height: 167.33px;
 }
+
 .fw {
   display: flex;
   flex-direction: column;
@@ -160,6 +173,7 @@ h3 {
   width: 156px; 
   height: 214.15px;
 }
+
 .skills {
   display: flex;
   flex-direction: column;
@@ -168,9 +182,11 @@ h3 {
   width: 122px;
   height: 224px;
 }
+
 p {
   color: #ffffff;
 }
+
 .sm {
   display: flex;
   flex-direction: column;
@@ -182,6 +198,7 @@ p {
   vertical-align: top;
   justify-content: space-between;
 }
+
 .icons1 {
   align-items: center;
   width: 18px;
@@ -194,6 +211,7 @@ p {
   height: 20px;
   display: flex;
 }
+
 .icons2 {
   align-items: center;
   width: 14px;
@@ -206,12 +224,14 @@ p {
   height: 20px;
   display: flex;
 }
+
 .icons4 {
   align-items: center;
   width: 16px;
   height: 20px;
   display: flex;
 }
+
 .line2 {
   position: absolute;
   height: 0px;
@@ -221,6 +241,7 @@ p {
   display: block;
   align-items: center;
 }
+
 .sm-icons {
   display: flex;
   flex-direction: row; 
@@ -231,6 +252,7 @@ p {
   justify-content: space-between;
   margin-left: 85%;
 }
+
 .work {
   font-size: 20px;
   line-height: 32px;
