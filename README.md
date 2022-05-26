@@ -11,7 +11,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://display: flex;)
+N/A
 
 
 ## Getting Started
