@@ -11,12 +11,12 @@ body {
   flex-direction: row;
   justify-content: space-between;
   height: 48px;
-  top: 0px;
+  top: 1px;
 }
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
 }
 
 h4 {
@@ -28,7 +28,7 @@ h4 {
   display: flex;
   align-items: flex-start;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
   margin-top: -25px;
   text-align: center;
   border-radius: 5px;
@@ -49,7 +49,7 @@ h4 {
   width: 160px;
   height: 160px;
   left: -106px;
-  top: 0px;
+  top: 1px;
   background: #edecff;
   filter: blur(50px);
   display: flex;
@@ -70,7 +70,6 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
   gap: 12px;
   width: 327px;
   min-height: 154px;
@@ -102,7 +101,6 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
   gap: 24px;
   width: 327px;
   min-height: 738.15px;
@@ -123,7 +121,7 @@ h3 {
 
 .line1 {
   position: absolute;
-  height: 0px;
+ 
   top: 555px;
   border: 1px solid #646369;
   width: 327px;
@@ -135,10 +133,9 @@ h3 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0px;
   gap: 24px;
   width: 303px;
-  height: 462.15px; 
+  height: 462.15px;
   flex-wrap: wrap;
 }
 
@@ -152,13 +149,12 @@ h3 {
   align-items: center;
   letter-spacing: 0.03em;
   color: #9490ff;
- } 
+} 
 
- .lang {
+.lang {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   gap: 12px;
   width: 123px;
   height: 167.33px;
@@ -168,7 +164,6 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   gap: 12px;
   width: 156px; 
   height: 214.15px;
@@ -184,7 +179,7 @@ h3 {
 }
 
 p {
-  color: #ffffff;
+  color: #fff;
 }
 
 .sm {
@@ -205,6 +200,7 @@ p {
   height: 20px;
   display: flex;
 }
+
 .icons {
   align-items: center;
   width: 18px;
@@ -218,6 +214,7 @@ p {
   height: 20px;
   display: flex;
 }
+
 .icons3 {
   align-items: center;
   width: 20px;
@@ -234,7 +231,6 @@ p {
 
 .line2 {
   position: absolute;
-  height: 0px;
   top: 1000px;
   border: 1px solid #646369;
   width: 327px;
@@ -246,7 +242,6 @@ p {
   display: flex;
   flex-direction: row; 
   align-content: center;
-  padding: 0px;
   width: 200px;
   height: 40px;
   justify-content: space-between;
@@ -262,7 +257,7 @@ p {
   vertical-align: top;
   color: #a2a3ae;
   display: flex;
-  width:77px;
+  width: 77px;
   height: 40px;
   margin-left: 100%;
 }
