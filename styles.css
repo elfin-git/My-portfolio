@@ -6,12 +6,11 @@ body {
 }
 
 .toolbar {
-  position: sticky;
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: sticky;
+  display: flex;
   height: 48px;
-  top: 1px;
 }
 
 a {
@@ -26,22 +25,20 @@ h4 {
   font-size: 18px;
   line-height: 16px;
   display: flex;
-  align-items: flex-start;
   letter-spacing: 0.03em;
   color: #fff;
-  margin-top: -25px;
   text-align: center;
   border-radius: 5px;
+  align-items: flex-start;
 }
-
 .bi {
   display: flex;
-  align-items: flex-end;
   width: 66px;
   height: 36px;
   border-radius: 5px;
   color: white;
-  margin-top: -5px;
+  padding-top: 5px;
+  align-items: flex-end;
 }
 
 .one {
@@ -71,7 +68,6 @@ h4 {
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  width: 327px;
   min-height: 154px;
 }
 
@@ -102,7 +98,6 @@ h3 {
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  width: 327px;
   min-height: 738.15px;
   flex-wrap: wrap;
 }
@@ -148,6 +143,7 @@ h3 {
   align-items: center;
   letter-spacing: 0.03em;
   color: #9490ff;
+  clear: none;
 }
 
 .lang {
@@ -157,6 +153,7 @@ h3 {
   gap: 12px;
   width: 123px;
   height: 167.33px;
+  line-height: 1.5em;
 }
 
 .fw {
@@ -166,6 +163,7 @@ h3 {
   gap: 12px;
   width: 156px;
   height: 214.15px;
+  line-height: 1.5em;
 }
 
 .skills {
@@ -175,22 +173,11 @@ h3 {
   gap: 16px;
   width: 122px;
   height: 224px;
+  line-height: 1.5em;
 }
 
 p {
   color: #fff;
-}
-
-.sm {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-  width: 200px;
-  height: 104px;
-  text-align: center;
-  vertical-align: top;
-  justify-content: space-between;
 }
 
 .icons1 {
@@ -230,7 +217,7 @@ p {
 
 .line2 {
   position: absolute;
-  top: 1000px;
+  top: 1050px;
   border: 1px solid #646369;
   width: 327px;
   display: block;
@@ -244,7 +231,18 @@ p {
   width: 200px;
   height: 40px;
   justify-content: space-between;
-  margin-left: 85%;
+}
+
+.sm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 200px;
+  height: 104px;
+  text-align: center;
+  justify-content: center;
+  margin:auto;
 }
 
 .work {
@@ -258,5 +256,4 @@ p {
   display: flex;
   width: 77px;
   height: 40px;
-  margin-left: 100%;
 }
