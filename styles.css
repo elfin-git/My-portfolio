@@ -183,8 +183,8 @@ p {
 
 .icons1 {
   align-items: center;
-  width: 18px;
-  height: 20px;
+  width: 20px;
+  height: 22px;
   display: flex;
 }
 
@@ -198,21 +198,21 @@ p {
 .icons2 {
   align-items: center;
   width: 14px;
-  height: 20px;
+  height: 17px;
   display: flex;
 }
 
 .icons3 {
   align-items: center;
   width: 20px;
-  height: 20px;
+  height: 17px;
   display: flex;
 }
 
 .icons4 {
   align-items: center;
   width: 16px;
-  height: 20px;
+  height: 16px;
   display: flex;
 }
 
@@ -232,6 +232,22 @@ p {
   width: 200px;
   height: 40px;
   justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  vertical-align: bottom;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: baseline;
 }
 
 .sm {
