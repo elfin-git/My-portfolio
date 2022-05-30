@@ -141,7 +141,7 @@ h3 {
   display: flex;
   justify-content: flex-start;
   gap: 24px;
-  width: 350px;
+  width: 400px;
   height: 400.15px;
   flex-wrap: wrap;
   color: #191765;
@@ -176,7 +176,7 @@ h3 {
   flex-direction: column;
   gap: 12px;
   width: 156px;
-  height: 214.15px;
+  height: 200.15px;
   line-height: 1.5em;
   align-items: flex-start;
   text-align: right;
@@ -251,7 +251,8 @@ li {
   text-align: center;
   justify-content: center;
   margin: auto;
-  padding-top: 25px;
+  padding-top: 35px;
+  padding-right: 50px;
 }
 
 .work {
@@ -265,4 +266,5 @@ li {
   display: flex;
   width: 77px;
   height: 40px;
+  padding-left: 35px;
 }
