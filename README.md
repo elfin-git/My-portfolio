@@ -11,26 +11,7 @@
 
 ## Live Demo (if available)
 
-N/A
-
-
-## Getting Started
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+http://127.0.0.1:5500/index.html
 
 
 ## Authors

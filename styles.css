@@ -3,6 +3,7 @@ body {
   font-family: 'Roboto', serif;
   font-style: normal;
   align-items: center;
+  align-content: center;
 }
 
 .toolbar {
@@ -27,19 +28,20 @@ h4 {
   display: flex;
   letter-spacing: 0.03em;
   color: #fff;
-  text-align: center;
   border-radius: 5px;
   align-items: flex-start;
 }
 
 .bi {
   display: flex;
-  width: 66px;
-  height: 36px;
-  border-radius: 5px;
+  width: 36px;
+  height: 23px;
+  border-radius: 1px;
   color: white;
-  padding-top: 5px;
+  padding-top: 25px;
   align-items: flex-end;
+  font-size: 35px;
+  text-align: center;
 }
 
 .one {
@@ -47,9 +49,9 @@ h4 {
   width: 160px;
   height: 160px;
   left: -106px;
-  top: 1px;
+  top: 100px;
   background: #edecff;
-  filter: blur(50px);
+  filter: blur(40px);
   display: flex;
 }
 
@@ -57,8 +59,8 @@ h4 {
   position: absolute;
   width: 68px;
   height: 68px;
-  left: 339px;
-  top: 495px;
+  left: 340px;
+  top: 600px;
   background: #edecff;
   filter: blur(50px);
   display: flex;
@@ -70,6 +72,7 @@ h4 {
   align-items: center;
   gap: 12px;
   min-height: 154px;
+  margin: auto;
 }
 
 h1 {
@@ -101,6 +104,7 @@ h3 {
   gap: 24px;
   min-height: 738.15px;
   flex-wrap: wrap;
+  margin: auto;
 }
 
 .desc {
@@ -117,7 +121,16 @@ h3 {
 
 .line1 {
   position: absolute;
-  top: 555px;
+  top: 565px;
+  border: 1px solid #646369;
+  width: 327px;
+  display: block;
+  align-items: center;
+}
+
+.line2 {
+  position: absolute;
+  top: 1100px;
   border: 1px solid #646369;
   width: 327px;
   display: block;
@@ -126,12 +139,13 @@ h3 {
 
 .edu {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  justify-content: flex-start;
   gap: 24px;
-  width: 303px;
-  height: 462.15px;
+  width: 350px;
+  height: 400.15px;
   flex-wrap: wrap;
+  color: #191765;
+  flex-direction: row;
 }
 
 .title {
@@ -150,34 +164,36 @@ h3 {
 .lang {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 12px;
   width: 123px;
   height: 167.33px;
   line-height: 1.5em;
+  align-items: flex-start;
 }
 
 .fw {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 12px;
   width: 156px;
   height: 214.15px;
   line-height: 1.5em;
+  align-items: flex-start;
+  text-align: right;
 }
 
 .skills {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 16px;
   width: 122px;
   height: 224px;
   line-height: 1.5em;
+  align-items: flex-start;
 }
 
-p {
+li {
+  list-style: none;
   color: #fff;
 }
 
@@ -216,15 +232,6 @@ p {
   display: flex;
 }
 
-.line2 {
-  position: absolute;
-  top: 1050px;
-  border: 1px solid #646369;
-  width: 327px;
-  display: block;
-  align-items: center;
-}
-
 .sm-icons {
   display: flex;
   flex-direction: row;
@@ -244,6 +251,8 @@ p {
   text-align: center;
   justify-content: center;
   margin: auto;
+  text-align: center;
+  padding-top: 25px;
 }
 
 .work {
