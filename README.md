@@ -7,36 +7,16 @@
 ## Built With
 
 - HTML & CSS
-- Frameworks
-- Technologies used
+- Github
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+http://127.0.0.1:5500/index.html
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Tracy Musongole**
 
 - GitHub: [@githubhandle](https://github.com/elfin-git)
 - Twitter: [@twitterhandle](https://twitter.com/tracy_muso)
