@@ -311,7 +311,8 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 24px;
+  padding-left: 24px;
+  padding-right: 24px;
   gap: 24px;
   width: 375px;
   height: 145px;
@@ -344,8 +345,7 @@ li {
   gap: 24px;
   width: 327px;
   height: 730px;
-  grid-template-rows: 236px 469px ;
-  gap: 24px;
+  grid-template-rows: 236px 469px;
   margin: auto;
   padding-bottom: 40px;
 }
@@ -460,7 +460,6 @@ li {
   align-items: center;
   text-align: center;
   color: #9390ff;
-  display: flex;
 }
 
 .cont-a {
