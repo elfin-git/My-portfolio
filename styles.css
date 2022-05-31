@@ -308,14 +308,14 @@ li {
 }
 
 .wrk {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px 24px;
-gap: 24px;
-width: 375px;
-height: 145px;
-margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 24px;
+  gap: 24px;
+  width: 375px;
+  height: 145px;
+  margin: auto;
 }
 
 .work-title {
@@ -324,7 +324,7 @@ margin: auto;
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #9490FF;
+  color: #9490ff;
   margin: auto;
   width: 300px;
   height: 104px;
@@ -362,7 +362,6 @@ margin: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   width: 327px;
   height: 469px;
   align-self: center;
@@ -392,7 +391,6 @@ margin: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
   gap: 8px;
   width: 300px;
   height: 40px;
@@ -428,8 +426,6 @@ margin: auto;
   background-color: #7d73fc;
   font-weight: 500;
   font-size: 12px;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #edecff;
@@ -451,7 +447,6 @@ margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
   gap: 24px;
   width: 327px;
   height: 164px;
@@ -484,7 +479,6 @@ margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
   gap: 24px;
   width: 327px;
   height: 292px;
