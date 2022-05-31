@@ -358,7 +358,7 @@ li {
   grid-row: 1;
   width: 327px;
   height: 236px;
-  background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
+  background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(6ef9bca4fab80e71cf21d99f05a945a4.jpg);
 }
 
 .img-text {
@@ -437,117 +437,4 @@ li {
 
 .btn:hover {
   opacity: 1;
-}
-
-.contact {
-  align-items: center;
-  margin: auto;
-  flex-direction: column;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.cont-heading {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-  width: 327px;
-  height: 164px;
-}
-
-.cont {
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 44px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #9390ff;
-  height: 35px;
-}
-
-.cont-a {
-  width: 327px;
-  height: 105px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  color: #f5f5ff;
-  vertical-align: top;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-  width: 327px;
-  height: 292px;
-  margin-top: 100px;
-}
-
-#textn {
-  width: 327px;
-  height: 48px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #81818c;
-}
-
-#email {
-  width: 327px;
-  height: 48px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  color: #191765;
-}
-
-#add {
-  width: 327px;
-  height: 148px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #81818c;
-  text-align: left;
-}
-
-.line4 {
-  position: absolute;
-  top: 5200px;
-  border: 1px solid #646369;
-  width: 100vh;
-  display: block;
-  align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  margin-top: 50px;
-}
-
-.em {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
 }
