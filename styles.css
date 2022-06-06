@@ -400,6 +400,7 @@ li {
   height: 40px;
   justify-content: space-between;
   list-style-type: none;
+  margin-right: 30px;
 }
 
 .tag {
@@ -409,6 +410,7 @@ li {
   font-size: 15px;
   line-height: 20px;
   display: flex;
+  float: left;
   align-items: center;
   padding: 7px 7px 7px 7px;
 }
