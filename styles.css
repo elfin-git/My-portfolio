@@ -410,7 +410,6 @@ li {
   font-size: 15px;
   line-height: 20px;
   display: flex;
-  float: left;
   align-items: center;
   padding: 7px 7px 7px 7px;
 }
@@ -440,3 +439,5 @@ li {
 .btn:hover {
   opacity: 1;
 }
+
+
