@@ -358,8 +358,7 @@ li {
   grid-row: 1;
   width: 327px;
   height: 236px;
-  background: linear-gradient(0deg, #f9f9f9, #f9f9f9),
-    url(6ef9bca4fab80e71cf21d99f05a945a4.jpg);
+  background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
 }
 
 .img-text {
