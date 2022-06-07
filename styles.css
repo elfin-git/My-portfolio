@@ -530,3 +530,18 @@ li {
   color: #81818c;
   text-align: left;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 50px;
+}
+
+.em {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
