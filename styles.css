@@ -395,6 +395,7 @@ li {
   display: flex;
   flex-direction: row;
   align-items: center;
+  float: right;
   gap: 8px;
   width: 300px;
   height: 40px;
