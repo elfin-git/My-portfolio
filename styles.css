@@ -675,4 +675,43 @@ li {
     filter: blur(50px);
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
   }
+
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+    width: 75%;
+  }
+
+  .about {
+    margin-bottom: 35px;
+  }
+
+  .heading > h1 {
+    height: 96px;
+    font-weight: 700;
+    font-size: 90px;
+    text-align: center;
+    letter-spacing: 0.37px;
+    color: #7d73fc;
+    align-items: center;
+    width: auto;
+    display: flex;
+  }
+
+  .heading > h3 {
+    height: 87px;
+    font-weight: 500;
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    color: #edecff;
+    width: auto;
+    top: 150px;
+    display: flex;
+    margin-top: -150px;
+  }
+
 }
