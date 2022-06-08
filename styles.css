@@ -714,4 +714,47 @@ li {
     margin-top: -150px;
   }
 
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    max-height: 738.15px;
+    align-content: center;
+  }
+
+  .desc {
+    width: 448px;
+    height: 170px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #c8c8d4;
+    display: flex;
+    margin-top: -5px;
+  }
+
+  .line1 {
+    position: absolute;
+    top: 555px;
+    border: 1px solid #646369;
+    width: 500px;
+    display: block;
+    align-items: center;
+  }
+
+  .line2 {
+    display: none;
+  }
+
+  .line3 {
+    position: absolute;
+    top: 1250px;
+    border: 1px solid #646369;
+    width: 900px;
+    display: block;
+    align-items: center;
+  }
+
 }
