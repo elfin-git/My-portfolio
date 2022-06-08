@@ -757,4 +757,55 @@ li {
     align-items: center;
   }
 
+  .edu {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    width: 550px;
+    margin-bottom: 0;
+    color: #191765;
+    flex-direction: row;
+    height: 250px;
+  }
+
+  .title {
+    width: 107px;
+    height: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #9490ff;
+    clear: none;
+  }
+
+  .lang {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 123px;
+    height: 167.33px;
+    line-height: 1.5em;
+  }
+  
+  .fw {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 156px;
+    height: 215.15px;
+    line-height: 1.5em;
+  }
+  
+  .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 122px;
+    height: 220px;
+    line-height: 1.5em;
+  }
+
 }
