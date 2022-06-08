@@ -920,4 +920,51 @@ li {
     padding: 4px 0;
   }
 
+  .tag-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: right;
+    gap: 8px;
+    width: 300px;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .tag {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    padding: 2px 2px 2px 2px;
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 89px;
+    background-color: #7d73fc;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #edecff;
+  }
+
+  .mps {
+    width: 327px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #dcdce8;
+  }
+
 }
