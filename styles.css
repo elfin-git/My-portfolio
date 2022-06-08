@@ -1057,4 +1057,40 @@ li {
     text-align: left;
   }
 
+  .footer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 50px;
+    width: 421px;
+    gap: 25px;
+  }
+  
+  .em {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+  }
+
+  form > .btn {
+    display: none;
+  }
+
+  .button {
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 160px;
+    height: 48px;
+    background-color: #7d73fc;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #edecff;
+    margin-top: 30px;
+  }
+
 }
