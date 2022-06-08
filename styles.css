@@ -1009,4 +1009,52 @@ li {
     margin-top: 5px;
   }
 
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    width: 684px;
+    height: 292px;
+    margin-top: 100px;
+  }
+  
+  #textn {
+    width: 684px;
+    height: 48px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #81818c;
+  }
+  
+  #email {
+    width: 684px;
+    height: 48px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #191765;
+  }
+  
+  #add {
+    width: 684px;
+    height: 148px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #81818c;
+    text-align: left;
+  }
+
 }
