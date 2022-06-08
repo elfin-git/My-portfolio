@@ -808,4 +808,65 @@ li {
     line-height: 1.5em;
   }
 
+  .sm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: -210px;
+  }
+
+  .work {
+    font-size: 20px;
+    line-height: 32px;
+    line-height: 137%;
+    text-align: center;
+    align-content: center;
+    vertical-align: top;
+    color: #a2a3ae;
+    display: flex;
+    width: 77px;
+    height: 40px;
+    order: 1;
+  }
+
+  .sm-icons {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+
+  .work2 {
+    font-size: 20px;
+    line-height: 32px;
+    line-height: 137%;
+    text-align: center;
+    align-content: center;
+    vertical-align: top;
+    color: #a2a3ae;
+    display: flex;
+    width: 77px;
+    height: 40px;
+    order: 3;
+  }
+
+  .wrk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    gap: 24px;
+    height: 145px;
+    width: 75%;
+  }
+
 }
