@@ -5,26 +5,24 @@ body {
   align-items: center;
   align-content: center;
   min-width: 350px;
-  align-items: center;
 }
 
 @media screen and (max-width: 760px) {
+  .pages {
+    display: none;
+  }
 
-.pages {
-  display: none;
-}
+  .page {
+    display: none;
+  }
 
-.page {
-  display: none;
-}
+  .work2 {
+    display: none;
+  }
 
-.work2 {
-  display: none;
-}
-
-.cont1 {
-  display: none;
-}
+  .cont1 {
+    display: none;
+  }
 }
 
 .toolbar {
@@ -565,7 +563,8 @@ li {
   text-align: center;
   color: #ebebff;
 }
-@media only screen and ( min-width: 768px) {
+
+@media only screen and (min-width: 768px) {
   .toolbar {
     height: 72px;
     width: auto;
@@ -600,7 +599,6 @@ li {
   .page {
     list-style: none;
     font-size: 20px;
-    font-weight: 500;
     line-height: 20px;
     letter-spacing: 0.05em;
     text-align: center;
@@ -628,7 +626,6 @@ li {
     top: 240px;
     background: #edecff;
     filter: blur(40px);
-    z-index: -1;
   }
   
   .two {
@@ -670,7 +667,7 @@ li {
     height: 155px;
     left: -41px;
     top: 2848px;
-    background: #EDECFF;
+    background: #edecff;
     filter: blur(50px);
   }
 
@@ -690,7 +687,6 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     gap: 24px;
     width: 75%;
   }
@@ -877,10 +873,6 @@ li {
     gap: 24px;
     height: 145px;
     width: 75%;
-  }
-
-  .work {
-    align-content: center;
   }
 
   .work-title {
@@ -1102,5 +1094,4 @@ li {
     color: #edecff;
     margin-top: 30px;
   }
-
 }
