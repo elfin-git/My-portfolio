@@ -967,4 +967,46 @@ li {
     color: #dcdce8;
   }
 
+  .contact {
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .cont-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+  }
+  
+  .cont1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #9390ff;
+    height: 35px;
+    letter-spacing: 0.05em;
+    margin-right: -110px;
+  }
+  
+  .cont-a {
+    width: 690px;
+    height: 105px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 21px;
+    line-height: 24px;
+    text-align: center;
+    color: #f5f5ff;
+    margin-top: 5px;
+  }
+
 }
