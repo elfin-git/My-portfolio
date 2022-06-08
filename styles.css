@@ -4,6 +4,27 @@ body {
   font-style: normal;
   align-items: center;
   align-content: center;
+  min-width: 350px;
+  align-items: center;
+}
+
+@media screen and (max-width: 760px) {
+
+.pages {
+  display: none;
+}
+
+.page {
+  display: none;
+}
+
+.work2 {
+  display: none;
+}
+
+.cont1 {
+  display: none;
+}
 }
 
 .toolbar {
@@ -19,7 +40,7 @@ a {
   color: #fff;
 }
 
-h4 {
+.logo {
   width: 81px;
   height: 16px;
   font-weight: 500;
@@ -72,7 +93,7 @@ h4 {
   position: absolute;
   width: 70.28px;
   height: 261.6px;
-  left: 447.27px;
+  left: -147.27px;
   top: 2437.23px;
   background: #edecff;
   filter: blur(50px);
@@ -304,7 +325,7 @@ li {
   position: absolute;
   width: 39.61px;
   height: 482.57px;
-  left: -112.04px;
+  left: -90.04px;
   top: 1624.71px;
   background: #edecff;
   filter: blur(40px);
@@ -352,6 +373,7 @@ li {
   grid-template-rows: 236px 469px;
   margin: auto;
   padding-bottom: 40px;
+  align-items: center;
 }
 
 .story-img {
@@ -374,7 +396,6 @@ li {
 .mps-title {
   font-weight: 500;
   font-size: 32px;
-  line-height: 44px;
   display: flex;
   align-items: center;
   color: #fff;
