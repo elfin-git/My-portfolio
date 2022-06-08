@@ -627,7 +627,7 @@ li {
     background: #edecff;
     filter: blur(40px);
   }
-  
+
   .two {
     position: absolute;
     width: 328px;
@@ -649,7 +649,7 @@ li {
     filter: blur(20px);
     transform: rotate(-36.38deg);
   }
-  
+
   .four {
     position: absolute;
     width: 70.28px;
@@ -795,7 +795,7 @@ li {
     height: 167.33px;
     line-height: 1.5em;
   }
-  
+
   .fw {
     display: flex;
     flex-direction: column;
@@ -804,7 +804,7 @@ li {
     height: 215.15px;
     line-height: 1.5em;
   }
-  
+
   .skills {
     display: flex;
     flex-direction: column;
@@ -976,7 +976,7 @@ li {
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   .cont-heading {
     display: flex;
     flex-direction: column;
@@ -997,7 +997,7 @@ li {
     letter-spacing: 0.05em;
     margin-right: -110px;
   }
-  
+
   .cont-a {
     width: 690px;
     height: 105px;
@@ -1020,7 +1020,7 @@ li {
     height: 292px;
     margin-top: 100px;
   }
-  
+
   #textn {
     width: 684px;
     height: 48px;
@@ -1033,7 +1033,7 @@ li {
     align-items: center;
     color: #81818c;
   }
-  
+
   #email {
     width: 684px;
     height: 48px;
@@ -1046,7 +1046,7 @@ li {
     align-items: center;
     color: #191765;
   }
-  
+
   #add {
     width: 684px;
     height: 148px;
@@ -1067,7 +1067,7 @@ li {
     width: 421px;
     gap: 25px;
   }
-  
+
   .em {
     font-weight: 400;
     font-size: 20px;
