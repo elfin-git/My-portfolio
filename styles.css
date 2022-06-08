@@ -638,7 +638,7 @@ li {
     left: 1140px;
     top: 600px;
     background: #edecff;
-    filter: blur(20px);
+    filter: blur(40px);
   }
 
   .three {
@@ -664,15 +664,25 @@ li {
     transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
   }
 
+  .five {
+    position: absolute;
+    width: 308px;
+    height: 155px;
+    left: -41px;
+    top: 2848px;
+    background: #EDECFF;
+    filter: blur(50px);
+  }
+
   .six {
     height: 916.3px;
-    width: 246.1px;
+    width: 70.1px;
     left: 1090.2px;
     top: 2934px;
     border-radius: 0;
     position: absolute;
     background: #edecff;
-    filter: blur(50px);
+    filter: blur(30px);
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
   }
 
