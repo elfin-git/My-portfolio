@@ -4,7 +4,7 @@ body {
   font-style: normal;
   align-items: center;
   align-content: center;
-  min-width: 270px;
+  width: 100%
 }
 
 @media screen and (max-width: 760px) {
@@ -650,9 +650,9 @@ li {
 
   .two {
     position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 950px;
+    width: 120px;
+    height: 120px;
+    left: 85%;
     top: 600px;
     background: #edecff;
     filter: blur(30px);
@@ -692,14 +692,14 @@ li {
   }
 
   .six {
-    height: 150.3px;
-    width: 80.1px;
-    right: -10.2px;
-    top: 3150px;
+    height: 200.3px;
+    width: 100.1px;
+    left: 90%;
+    top: 2610px;
     border-radius: 0;
     position: absolute;
     background: #edecff;
-    filter: blur(40px);
+    filter: blur(30px);
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
   }
 
@@ -916,9 +916,8 @@ li {
     margin-top: 90px;
     width: 755px;
     height: 400px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    border: solid yellow;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
@@ -1128,4 +1127,3 @@ li {
     box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
   }
 }
-
