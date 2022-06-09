@@ -25,7 +25,17 @@ body {
   }
 
   .button {
-   display: none;
+    display: none;
+  }
+
+  .six {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  .two {
+    display: none;
   }
 }
 
@@ -375,9 +385,10 @@ li {
   width: 327px;
   height: 730px;
   grid-template-rows: 236px 469px;
-  margin: auto;
-  padding-bottom: 40px;
+  margin-bottom: 50px;
   align-items: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .story-img {
@@ -465,8 +476,8 @@ li {
 }
 
 .btn:hover {
-  background: #7D73FC;
-  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  background: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
 .contact {
@@ -629,22 +640,22 @@ li {
 
   .one {
     position: absolute;
-    width: 160px;
-    height: 187px;
+    width: 120px;
+    height: 127px;
     left: 69px;
     top: 240px;
     background: #edecff;
-    filter: blur(40px);
+    filter: blur(30px);
   }
 
   .two {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 1000px;
+    width: 70px;
+    height: 70px;
+    left: 950px;
     top: 600px;
     background: #edecff;
-    filter: blur(40px);
+    filter: blur(30px);
   }
 
   .three {
@@ -662,7 +673,7 @@ li {
   .four {
     position: absolute;
     width: 70.28px;
-    height: 261.6px;
+    height: 161.6px;
     left: -147.27px;
     top: 2437.23px;
     background: #edecff;
@@ -672,8 +683,8 @@ li {
 
   .five {
     position: absolute;
-    width: 308px;
-    height: 155px;
+    width: 108px;
+    height: 105px;
     left: -41px;
     top: 2848px;
     background: #edecff;
@@ -681,14 +692,14 @@ li {
   }
 
   .six {
-    height: 300.3px;
+    height: 150.3px;
     width: 80.1px;
-    right: -15.2px;
+    right: -10.2px;
     top: 3150px;
     border-radius: 0;
     position: absolute;
     background: #edecff;
-    filter: blur(30px);
+    filter: blur(40px);
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
   }
 
@@ -776,7 +787,7 @@ li {
     display: flex;
     justify-content: space-between;
     gap: 4px;
-    width: 550px;
+    width: 530px;
     margin-bottom: 0;
     color: #191765;
     flex-direction: row;
@@ -900,30 +911,37 @@ li {
   .mps-grid {
     display: flex;
     flex-direction: row;
-    gap: 5%;
+    gap: 20px;
     padding-bottom: 0;
-    margin-top: -20px;
-    width: 85%;
-    justify-content: center;
+    margin-top: 90px;
+    width: 755px;
+    height: 400px;
+    justify-content: space-between;
     align-items: center;
+    border: solid yellow;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
   }
 
   .story-img {
-    width: 500px;
+    width: 450px;
     background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
     border: solid black;
-    height: 448px;
+    height: 350px;
+    margin-top: 37px;
   }
 
   .img-text {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 280px;
     align-items: stretch;
+    height: 280px;
   }
 
   .mps-title {
-    font-weight: 500;
+    font-weight: 300;
     font-size: 32px;
     display: flex;
     align-items: center;
@@ -938,17 +956,18 @@ li {
     align-items: center;
     float: right;
     gap: 8px;
-    width: 300px;
+    width: 250px;
     justify-content: space-between;
     list-style-type: none;
     padding: 0;
+    margin-top: 0;
   }
 
   .tag {
     font-family: "Inter", sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
+    font-weight: 300;
+    font-size: 11px;
     line-height: 20px;
     display: flex;
     align-items: center;
@@ -956,13 +975,12 @@ li {
   }
 
   .btn {
-    display: flex;
     align-items: center;
-    padding: 12px;
-    gap: 10px;
-    width: 89px;
+    padding: 7px;
+    gap: 5px;
+    width: 79px;
     background-color: #7d73fc;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 12px;
     text-align: center;
     letter-spacing: 0.03em;
@@ -970,12 +988,12 @@ li {
   }
 
   .mps {
-    width: 327px;
+    width: 250px;
     font-family: "Inter", sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
     color: #dcdce8;
   }
 
@@ -1106,7 +1124,8 @@ li {
   }
 
   .button:hover {
-    background: #7D73FC;
-    box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+    background: #7d73fc;
+    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
   }
 }
+
