@@ -4,7 +4,7 @@ body {
   font-style: normal;
   align-items: center;
   align-content: center;
-  min-width: 350px;
+  min-width: 270px;
 }
 
 @media screen and (max-width: 760px) {
@@ -22,6 +22,10 @@ body {
 
   .cont1 {
     display: none;
+  }
+
+  .button {
+   display: none;
   }
 }
 
@@ -107,7 +111,6 @@ a {
   top: 3274px;
   background: rgba(237, 236, 255, 0.3);
   filter: blur(50px);
-  z-index: -1;
 }
 
 .heading {
@@ -166,7 +169,7 @@ h3 {
 
 .line1 {
   position: absolute;
-  top: 565px;
+  top: 595px;
   border: 1px solid #646369;
   width: 327px;
   display: block;
@@ -175,7 +178,7 @@ h3 {
 
 .line2 {
   position: absolute;
-  top: 1100px;
+  top: 1150px;
   border: 1px solid #646369;
   width: 327px;
   display: block;
@@ -339,7 +342,9 @@ li {
   gap: 24px;
   width: 375px;
   height: 145px;
-  margin: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .work-title {
@@ -351,12 +356,13 @@ li {
   color: #9490ff;
   margin: auto;
   width: 300px;
-  height: 104px;
+  height: 150px;
+  flex-direction: row;
 }
 
 .line3 {
   position: absolute;
-  top: 1280px;
+  top: 1420px;
   border: 1px solid #646369;
   width: 327px;
   display: block;
@@ -392,11 +398,13 @@ li {
 }
 
 .mps-title {
-  font-weight: 500;
-  font-size: 32px;
+  font-weight: 400;
+  font-size: 30px;
   display: flex;
   align-items: center;
   color: #fff;
+  text-align: left;
+  line-height: 5px;
 }
 
 .mps {
@@ -457,7 +465,8 @@ li {
 }
 
 .btn:hover {
-  background-color: #b0aee6;
+  background: #7D73FC;
+  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
 }
 
 .contact {
@@ -505,7 +514,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 14px;
   width: 327px;
   height: 292px;
   margin-top: 100px;
@@ -630,9 +639,9 @@ li {
 
   .two {
     position: absolute;
-    width: 328px;
-    height: 228px;
-    left: 1140px;
+    width: 100px;
+    height: 100px;
+    left: 1000px;
     top: 600px;
     background: #edecff;
     filter: blur(40px);
@@ -672,10 +681,10 @@ li {
   }
 
   .six {
-    height: 916.3px;
-    width: 100.1px;
-    left: 1200.2px;
-    top: 2934px;
+    height: 300.3px;
+    width: 80.1px;
+    right: -15.2px;
+    top: 3150px;
     border-radius: 0;
     position: absolute;
     background: #edecff;
@@ -697,10 +706,10 @@ li {
 
   .heading > h1 {
     height: 96px;
-    font-weight: 700;
-    font-size: 90px;
+    font-weight: 500;
+    font-size: 80px;
     text-align: center;
-    letter-spacing: 0.37px;
+    letter-spacing: 0.27px;
     color: #7d73fc;
     align-items: center;
     width: auto;
@@ -884,13 +893,14 @@ li {
     color: #9490ff;
     float: left;
     margin-left: 15px;
-    margin-top: 95px;
+    margin-top: 105px;
+    width: 80%;
   }
 
   .mps-grid {
     display: flex;
     flex-direction: row;
-    gap: 3%;
+    gap: 5%;
     padding-bottom: 0;
     margin-top: -20px;
     width: 85%;
@@ -1093,5 +1103,10 @@ li {
     letter-spacing: 0.03em;
     color: #edecff;
     margin-top: 30px;
+  }
+
+  .button:hover {
+    background: #7D73FC;
+    box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
   }
 }
