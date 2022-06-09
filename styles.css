@@ -362,9 +362,10 @@ li {
   font-weight: 500;
   line-height: 52px;
   display: flex;
+  text-align: start;
   align-items: center;
   color: #9490ff;
-  margin: auto;
+  margin-right: 10px;
   width: 300px;
   height: 150px;
   flex-direction: row;
@@ -717,13 +718,13 @@ li {
 
   .heading > h1 {
     height: 96px;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 80px;
     text-align: center;
-    letter-spacing: 0.27px;
+    letter-spacing: 0.17px;
     color: #7d73fc;
     align-items: center;
-    width: auto;
+    width: 70%;
     display: flex;
   }
 
@@ -737,7 +738,7 @@ li {
     width: auto;
     top: 150px;
     display: flex;
-    margin-top: -150px;
+    margin-top: -100px;
   }
 
   .container {
