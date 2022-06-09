@@ -23,10 +23,7 @@ body {
   .cont1 {
     display: none;
   }
-
-  .button {
-    display: none;
-  }
+}
 
   .six {
     display: none;
@@ -485,6 +482,10 @@ li {
   background: #2a2b33;
 }
 
+.btn:enabled {
+  background: #7d73fc;
+}
+
 .contact {
   align-items: center;
   margin: auto;
@@ -526,6 +527,34 @@ li {
   vertical-align: top;
 }
 
+.button {
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 160px;
+  height: 48px;
+  background-color: #7d73fc;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #edecff;
+  margin-top: 30px;
+}
+
+.button:hover {
+  background: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.button:disabled {
+  background: #2a2b33;
+}
+
+.button:enabled {
+  background: #7d73fc;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -547,6 +576,7 @@ li {
   display: flex;
   align-items: center;
   color: #81818c;
+  padding: 5px 5px 5px 5px;
 }
 
 #email {
@@ -560,6 +590,7 @@ li {
   display: flex;
   align-items: center;
   color: #191765;
+  padding: 5px 5px 5px 5px;
 }
 
 #add {
@@ -572,6 +603,7 @@ li {
   line-height: 24px;
   color: #81818c;
   text-align: left;
+  padding: 5px 5px 5px 5px;
 }
 
 .footer {
@@ -1106,33 +1138,5 @@ li {
     line-height: 28px;
     text-align: center;
     color: #ebebff;
-  }
-
-  form > .btn {
-    display: none;
-  }
-
-  .button {
-    align-items: center;
-    padding: 12px;
-    gap: 10px;
-    width: 160px;
-    height: 48px;
-    background-color: #7d73fc;
-    font-weight: 500;
-    font-size: 12px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #edecff;
-    margin-top: 30px;
-  }
-
-  .button:hover {
-    background: #7d73fc;
-    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
-  }
-
-  .button:disabled {
-    background: #2a2b33;
   }
 }
