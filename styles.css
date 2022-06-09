@@ -4,7 +4,7 @@ body {
   font-style: normal;
   align-items: center;
   align-content: center;
-  width: 100%
+  width: 100%;
 }
 
 @media screen and (max-width: 760px) {
@@ -479,6 +479,10 @@ li {
 .btn:hover {
   background: #7d73fc;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.btn:disabled {
+  background: #2a2b33;
 }
 
 .contact {
@@ -1126,5 +1130,9 @@ li {
   .button:hover {
     background: #7d73fc;
     box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+  }
+
+  .button:disabled {
+    background: #2a2b33;
   }
 }
