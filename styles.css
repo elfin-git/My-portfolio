@@ -61,6 +61,13 @@ a {
   align-items: flex-start;
 }
 
+/*
+  transition-duration: 1s;
+  transition-property: transform;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+*/
+
 .bi {
   display: flex;
   width: 36px;
@@ -485,6 +492,12 @@ li {
 .btn:enabled {
   background: #7d73fc;
 }
+
+/*.btn:active {
+  transform: scale(1);
+
+}
+*/
 
 .contact {
   align-items: center;
