@@ -463,10 +463,10 @@ li {
   padding: 12px;
   gap: 10px;
   width: 89px;
-  height: 48px;
+  height: 50px;
   background-color: #7d73fc;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 13px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #edecff;
@@ -975,6 +975,7 @@ li {
     width: 280px;
     align-items: stretch;
     height: 280px;
+    margin-top: 15px;
   }
 
   .mps-title {
@@ -1013,9 +1014,9 @@ li {
 
   .btn {
     align-items: center;
-    padding: 7px;
+    padding: 12px;
     gap: 5px;
-    width: 79px;
+    width: 89px;
     background-color: #7d73fc;
     font-weight: 300;
     font-size: 12px;
