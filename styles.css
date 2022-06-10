@@ -59,6 +59,7 @@ a {
   border-radius: 5px;
   align-items: flex-start;
   animation: opacity-in 5s forwards;
+  animation-delay: 4s;
 }
 
 @keyframes opacity-in {
@@ -683,6 +684,7 @@ footer {
     margin-left: 90px;
     padding: 0 5px 5px 5px;
     animation: opacity-in 5s forwards;
+    animation-delay: 4s;
   }
 
   @keyframes opacity-in {
