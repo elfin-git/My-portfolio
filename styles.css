@@ -61,6 +61,13 @@ a {
   align-items: flex-start;
   animation: opacity-in 5s forwards;
 }
+
+@keyframes opacity-in {
+  100% {
+    opacity: 1;
+  }
+}
+
 .bi {
   display: flex;
   width: 36px;
