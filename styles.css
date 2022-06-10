@@ -54,11 +54,18 @@ a {
   font-weight: 500;
   font-size: 18px;
   line-height: 16px;
-  display: flex;
   letter-spacing: 0.03em;
   color: #fff;
   border-radius: 5px;
   align-items: flex-start;
+  animation: opacity-in 5s forwards;
+  animation-delay: 4s;
+}
+
+@keyframes opacity-in {
+  100% {
+    opacity: 1;
+  }
 }
 
 .bi {
@@ -676,6 +683,14 @@ footer {
     font-size: 18px;
     margin-left: 90px;
     padding: 0 5px 5px 5px;
+    animation: opacity-in 5s forwards;
+    animation-delay: 4s;
+  }
+
+  @keyframes opacity-in {
+    100% {
+      opacity: 1;
+    }
   }
 
   .one {
